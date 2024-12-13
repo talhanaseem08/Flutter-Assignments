@@ -92,10 +92,10 @@ void main(List<String> args) {
   print(elements.toSet());
 
   //Question:11
-  //List<int> numbers3 = [1, 2, 3, 4, 5];
-  //print("enter n number:");
-  //int? n = int.parse(stdin.readLineSync()!);
-  //print(numbers3.take(n).toList());
+  List<int> numbers3 = [1, 2, 3, 4, 5];
+  print("enter n number:");
+  int? n = int.parse(stdin.readLineSync()!);
+  print(numbers3.take(n).toList());
 
   //Question:12
   List<String> nameOfFruit = ['apple', 'banana', 'cherry'];
@@ -130,4 +130,38 @@ void main(List<String> args) {
   print((person['isStudent'] && person['age'] > 18)
       ? 'Eligible'
       : 'Not eligible');
+  //Question:19
+
+  Map<String, dynamic> product = {
+    'name': 'Laptop',
+    'price': 1500,
+    'quantity': 5
+  };
+  print(product['quantity'] > 0 ? 'In stock' : 'Out of stock');
+
+  //Question:20
+  Map<String, dynamic> car = {
+    'brand': 'Toyota',
+    'color': 'Red',
+    'isSedan': true
+  };
+  print((car['isSedan'] && car['color'] == 'Red') ? 'Match' : 'No match');
+
+  //Question:21
+
+  Map<String, dynamic> user = {
+    'name': 'John',
+    'isAdmin': true,
+    'isActive': true
+  };
+  print((user['isAdmin'] && user['isActive'])
+      ? 'Active admin'
+      : 'Not an active admin');
+
+  //Question:22
+
+  Map<String, int> shoppingCart = {'Apple': 5, 'Banana': 2, 'Orange': 3};
+  print(shoppingCart.containsKey('Apple')
+      ? 'Product found'
+      : 'Product not found');
 }
