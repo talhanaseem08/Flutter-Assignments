@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'dart:math';
 
 void main(List<String> args) {
   //Question:01
@@ -40,7 +39,7 @@ void main(List<String> args) {
     "Ahad": 6754,
     "Hanzala": 98743,
     "Qasim": 9568,
-    "Qasim": 3435799
+    "zeeshan": 3435799
   };
   print(phonebook.keys.where((key) => key.length == 4));
 
