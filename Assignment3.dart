@@ -2,13 +2,13 @@ import 'dart:io';
 
 void main(List<String> args) {
   //Question: 01
-  // print("how many number you want to add in the list");
-  // int no_Input = int.parse(stdin.readLineSync()!);
-  // List<int> lst = [];
-  // for (var i = 0; i < no_Input; i++) {
-  //   int input = int.parse(stdin.readLineSync()!);
-  //   lst.add(input);
-  // }
+  print("how many number you want to add in the list");
+  int no_Input = int.parse(stdin.readLineSync()!);
+  List<int> lst = [];
+  for (var i = 0; i < no_Input; i++) {
+    int input = int.parse(stdin.readLineSync()!);
+    lst.add(input);
+  }
   // print(lst);
   // print(".......");
   // print("even no on the list");
