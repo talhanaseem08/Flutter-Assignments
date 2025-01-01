@@ -4,7 +4,7 @@ void main(List<String> args) {
   //Question:01
   List<String> name = ["Ahad", "Hanzala", "Qasim", "Zeeshan"];
   print(name);
-  //Question:02
+  //Question:002
   List<String> days = [];
   days.add("Monday");
   days.add("Tuesday");
@@ -20,7 +20,7 @@ void main(List<String> args) {
     "Tuesday",
     "Wednesday",
     "Thursday",
-    "Friday",
+    "fri",
     "Saturday",
     "Sunday"
   ];
